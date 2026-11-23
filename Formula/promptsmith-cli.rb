@@ -1,16 +1,16 @@
 class PromptsmithCli < Formula
-  desc "Local-first AI prompt refining tool: score, analyze, and refine prompts before they cost tokens"
-  homepage "https://github.com/pr0z4k/promptsmith-cli"
-  version "1.0.0"
+  desc "Local-first tool to analyze, score and refine AI Prompts"
+  homepage "https://github.com/rc64k/promptsmith-cli"
   license "MIT"
+  version "1.0.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pr0z4k/promptsmith-cli/releases/download/v#{version}/PromptSmith-cli-#{version}-macos-arm64.zip"
-      sha256 "47c693971a11737c32d52d06b328cdde0367e5f87478a7b013954f7f9ccb4d92"
+      url "https://github.com/rc64k/promptsmith-cli/releases/download/v#{version}/PromptSmith-cli-#{version}-macos-arm64.zip"
+      sha256 "5a54cc3c58eb8251ecd7ee87c78ad5b4ee72fd5e8fd319837e4dfcf67c8645d2"
     else
-      url "https://github.com/pr0z4k/promptsmith-cli/releases/download/v#{version}/PromptSmith-cli-#{version}-macos-x86_64.zip"
-      sha256 "e6845f1aa0308a0bb9b2e0c71f77120f873ef11ca0de5f3e3075ba9d71b32849"
+      url "https://github.com/rc64k/promptsmith-cli/releases/download/v#{version}/PromptSmith-cli-#{version}-macos-x86_64.zip"
+      sha256 "ab74a0a370b3bac6eceefe6b782386d197d599b3b9a07c69bfa6687fd9234bd4"
     end
   end
 
